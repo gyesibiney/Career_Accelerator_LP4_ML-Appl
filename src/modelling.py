@@ -70,10 +70,14 @@ train_copy.head()
 # modelling train
 model=Prophet(yearly_seasonality=True, seasonality_mode='multiplicative',seasonality_prior_scale=20)
 # stating exogenous variables
-exo_cols= train_copy.select_dtypes(np.number)
-for cols in exo_cols:
-    model.add_regressor(cols,standardize=True)
+exo_cols= [ 'holiday_0', 'holiday_1', 'holiday_2', 'locale', 'transferred', 'onpromotion', 'transactions']
 
+model.add_regressor(exo_cols[0], standardize=True)
+model.add_regressor(exo_cols[1], standardize=True)
+model.add_regressor(exo_cols[2], standardize=True)
+model.add_regressor(exo_cols[3], standardize=True)
+model.add_regressor(exo_cols[4], standardize=True)
+model.add_regressor(exo_cols[-1], standardize=True)
 # concatenating 
 full_train= pd.concat([train_copy,train_target],axis=1)
 full_train.head()
@@ -133,8 +137,10 @@ model_2= Prophet(yearly_seasonality=True, seasonality_mode='multiplicative',seas
 # adding holiday feature
 model_2.add_country_holidays(country_name='Ecuador')
 # adding regressors (exogenous variable)
-for col in train_2.drop(['ds','y'],axis=1):
-    model_2.add_regressor(col,standardize=True)
+cols_to_add = [col for col in train_2.drop(['ds', 'y'], axis=1)]
+[model_2.add_regressor(col, standardize=True) for col in cols_to_add]
+#for col in train_2.drop(['ds','y'],axis=1):
+#    model_2.add_regressor(col,standardize=True)
 model_2.fit(train_2)
 
 eval_f=model_2.predict(test_2)
@@ -152,7 +158,7 @@ res
 model_2.plot_components(eval_f)
 
 ##saving my Facebook Prophet model
-joblib.dump(model_2,r"C:\Users\DAVID\Career_Accelerator_LP4-ML_APPL\ml_component\saved_ml.joblib")
+joblib.dump(model_2,r"C:\Users\DAVID\Career_Accelerator_LP4_ML-Appl\ml_component\saved_ml.joblib")
 
 
 
