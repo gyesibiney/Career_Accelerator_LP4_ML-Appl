@@ -22,3 +22,6 @@ to run the app utilizing the "predict_page.py" file.
 I welcome pull requests for any contributions or modifications. If you are planning to make significant changes, kindly open an issue first to discuss and clarify your intentions.
 
 Please ensure that you update the necessary tests accordingly. If you have any further inquiries or concerns, feel free to contact me via my email: gyesidavid@gmail.com
+
+### Author
+David Gyesi BINEY
