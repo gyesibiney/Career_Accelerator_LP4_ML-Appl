@@ -1,17 +1,17 @@
-# Developing a web application for a time series model using Facebook Prophet
+# Developing a Streamlit web app for a time series model using Facebook Prophet 
 ## Objective
 The objective of this project is to implement a time series regression analysis model. I selected Facebook Prophet as my preferred model, utilizing external regressors and the built-in holiday effect feature of Facebook Prophet.
 
 All necessary datasets and materials for this are available in my folders and files.
 
-# Developing a web application for classification ML model for Vodafone Group
+# Developing a Gradio web app for classification ML model for Vodafone Group
 Basically, the aim of this project is to predict whether a customer will attrite using the web application(Gradio)
 
 
 ### Installation
 Utilize the pip package manager to install the dependencies specified in the requirements.txt file
 
-pip install -r requirements.txt
+'pip install -r requirements.txt'
 
 ### Usage
 Import all the required library names, for example, import Streamlit as st.
