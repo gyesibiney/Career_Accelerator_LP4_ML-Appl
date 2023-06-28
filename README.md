@@ -1,3 +1,11 @@
+## Summary
+| Code      | Name        | Published Article 1 | Published Article 2 |
+|-----------|-------------|:-------------:|------:|
+| LP 4 | Embedding a Machine Learning Model into a GUI.  |  [(https://medium.com/@david.biney/deploying-time-series-model-facebook-prophet-on-streamlit-c2ff4ca31a58](/) | [https://medium.com/@david.biney/customer-churn-prediction-using-web-app-gradio-for-vodafone-group-8c8ec7803f](/) |
+
+
+
+
 # Developing a Streamlit web app for a time series model using Facebook Prophet 
 ## Objective
 The objective of this project is to implement a time series regression analysis model. I selected Facebook Prophet as my preferred model, utilizing external regressors and the built-in holiday effect feature of Facebook Prophet.
