@@ -41,4 +41,4 @@ if ok:
     # making Prediction
     forecast=model.predict(inputs)
     output=round(forecast['yhat'],2)
-    st.success('the estimated forecast sales ${}'.format(output))
+    st.success (f'the estimated forecast sales ${output_values.values[0]:.2f}')
