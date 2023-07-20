@@ -5,9 +5,9 @@
 
 
 ### Installation for both  APPS✨
-run the attached command.txt for both Apps
+run the attached command.txt file for both Apps
 
- 📚 **Description**
+ ### 📚 **Description**
 
 this project involves deploying two graphical user interfaces with my best models in different projects. thus, deployment of Facebook prophet model on time series using Streamlit and deployment of logistic regression classifier using Gradio. as it follows below; 
 
