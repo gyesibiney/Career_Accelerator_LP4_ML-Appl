@@ -15,13 +15,7 @@ The objective of this project is to implement a time series regression analysis 
 All necessary datasets and materials for this are available in my folders and files.
 
 ### Installation for STREAMLIT APP✨
-python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -r requirements.txt  
 
-#On Linux
-python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -r requirements.txt
-
-
-```
 
 ### Usage
 Import all the required library names, for example, import Streamlit as st.
