@@ -3,6 +3,7 @@
 |-----------|-------------|:-------------:|------:|
 | LP 4 | Embedding a Machine Learning Model into a GUI.  |  [(https://medium.com/@david.biney/deploying-time-series-model-facebook-prophet-on-streamlit-c2ff4ca31a58](/) | [https://medium.com/@david.biney/customer-churn-prediction-using-web-app-gradio-for-vodafone-group-8c8ec7803f](/) |
 
+
 ### Installation for  both  APPS✨
 python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -r requirements.txt  
 
@@ -11,7 +12,7 @@ python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgra
 
 ```
 
-#### 📚 **Description**
+ 📚 **Description**
 
 this project involves deploying two graphical user interfaces with my best models in different projects. thus, deployment of Facebook prophet model on time series using Streamlit and deployment of logistic regression classifier using Gradio. as it follows below; 
 
@@ -25,12 +26,10 @@ All necessary datasets and materials for this are available in my folders and fi
 
 
 ### Usage
-Import all the required library names, for example, import Streamlit as st.
+Import all the required library names.
 
 -To execute the application, use the command "streamlit run src/predict_page.py 
  to run the app utilizing the "predict_page.py" file.
-
-
 
 
 ####📚 **Description**
@@ -41,8 +40,6 @@ Basically, the aim of this project is to predict whether a customer will attrite
 
 ### Usage
 - To execute Gradio use iface.launch()
-
-
 
 
 ### Contribution
