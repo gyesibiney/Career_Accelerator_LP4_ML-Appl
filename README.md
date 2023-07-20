@@ -30,10 +30,7 @@ Import all the required library names, for example, import Streamlit as st.
 -To execute the application, use the command "streamlit run src/predict_page.py 
  to run the app utilizing the "predict_page.py" file.
 
-✨ STREAMLIT APP SCREENSHOT
-![streamlit pix](https://github.com/gyesibiney/Career_Accelerator_LP4_ML-Appl/assets/126587242/4620d596-e530-4ae9-b949-bec89d3dbc87)
-![streamlit pix2](https://github.com/gyesibiney/Career_Accelerator_LP4_ML-Appl/assets/126587242/45e005e5-a266-4be7-a318-473288b43338)
-Local URL: http://localhost:8501
+
 
 
 ####📚 **Description**
@@ -45,9 +42,7 @@ Basically, the aim of this project is to predict whether a customer will attrite
 ### Usage
 - To execute Gradio use iface.launch()
 
-✨ GRADIO APP SCREENSHOT 
-![gradio](https://github.com/gyesibiney/Career_Accelerator_LP4_ML-Appl/assets/126587242/1c04005b-100b-444d-bae8-4f7ede4c823c)
-local URL:  http://127.0.0.1:7860
+
 
 
 ### Contribution
