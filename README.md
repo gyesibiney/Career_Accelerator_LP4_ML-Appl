@@ -1,3 +1,5 @@
+# DEPLOYING GRAPHICAL USER INTERFACES FOR STREAMLIT AND GRADIO APPS
+
 ## Summary
 | Code      | Name        | Published Article 1 | Published Article 2 |
 |-----------|-------------|:-------------:|------:|
@@ -11,7 +13,7 @@ run the attached command.txt file for both Apps
 
 this project involves deploying two graphical user interfaces with my best models in different projects. thus, deployment of Facebook prophet model on time series using Streamlit and deployment of logistic regression classifier using Gradio. as it follows below; 
 
-#### Developing a Streamlit web app for a time series model using Facebook Prophet 
+### Developing a Streamlit web app for a time series model using Facebook Prophet 
 #### Objective
 The objective of this project is to implement a time series regression analysis model. I selected Facebook Prophet as my preferred model, utilizing external regressors and the built-in holiday effect feature of Facebook Prophet.
 
