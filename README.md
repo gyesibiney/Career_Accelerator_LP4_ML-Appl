@@ -11,7 +11,7 @@ run the attached command.txt file for both Apps
 
 this project involves deploying two graphical user interfaces with my best models in different projects. thus, deployment of Facebook prophet model on time series using Streamlit and deployment of logistic regression classifier using Gradio. as it follows below; 
 
-✨ STREAMLIT APPP
+### ✨ STREAMLIT APPP
 # Developing a Streamlit web app for a time series model using Facebook Prophet 
 ## Objective
 The objective of this project is to implement a time series regression analysis model. I selected Facebook Prophet as my preferred model, utilizing external regressors and the built-in holiday effect feature of Facebook Prophet.
@@ -27,8 +27,8 @@ Import all the required library names.
  to run the app utilizing the "predict_page.py" file.
 
 
-####📚 **Description**
-✨ GRADIO APP
+### 📚 **Description**
+#### ✨ GRADIO APP
 # Developing a Gradio web app for classification ML model for Vodafone Group
 Basically, the aim of this project is to predict whether a customer will attrite using the web application(Gradio)
 
