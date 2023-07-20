@@ -3,7 +3,8 @@
 |-----------|-------------|:-------------:|------:|
 | LP 4 | Embedding a Machine Learning Model into a GUI.  |  [(https://medium.com/@david.biney/deploying-time-series-model-facebook-prophet-on-streamlit-c2ff4ca31a58](/) | [https://medium.com/@david.biney/customer-churn-prediction-using-web-app-gradio-for-vodafone-group-8c8ec7803f](/) |
 
-📚 **Description**
+####📚 **Description**
+
 this project involves deploying two graphical user interfaces with my best models in different projects. thus, deployment of Facebook prophet model on time series using Streamlit and deployment of logistic regression classifier using Gradio. as it follows below; 
 
 ✨ STREAMLIT APPP
@@ -33,6 +34,8 @@ Import all the required library names, for example, import Streamlit as st.
 ![streamlit pix2](https://github.com/gyesibiney/Career_Accelerator_LP4_ML-Appl/assets/126587242/45e005e5-a266-4be7-a318-473288b43338)
 Local URL: http://localhost:8501
 
+
+####📚 **Description**
 ✨ GRADIO APP
 # Developing a Gradio web app for classification ML model for Vodafone Group
 Basically, the aim of this project is to predict whether a customer will attrite using the web application(Gradio)
