@@ -3,6 +3,14 @@
 |-----------|-------------|:-------------:|------:|
 | LP 4 | Embedding a Machine Learning Model into a GUI.  |  [(https://medium.com/@david.biney/deploying-time-series-model-facebook-prophet-on-streamlit-c2ff4ca31a58](/) | [https://medium.com/@david.biney/customer-churn-prediction-using-web-app-gradio-for-vodafone-group-8c8ec7803f](/) |
 
+### Installation for  both  APPS✨
+python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -r requirements.txt  
+
+#On Linux
+python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -r requirements.txt 
+
+```
+
 #### 📚 **Description**
 
 this project involves deploying two graphical user interfaces with my best models in different projects. thus, deployment of Facebook prophet model on time series using Streamlit and deployment of logistic regression classifier using Gradio. as it follows below; 
@@ -14,13 +22,7 @@ The objective of this project is to implement a time series regression analysis 
 
 All necessary datasets and materials for this are available in my folders and files.
 
-### Installation for STREAMLIT APP✨
-python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -r requirements.txt  
 
-#On Linux
-python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -r requirements.txt 
-
-```
 
 ### Usage
 Import all the required library names, for example, import Streamlit as st.
@@ -39,13 +41,7 @@ Local URL: http://localhost:8501
 # Developing a Gradio web app for classification ML model for Vodafone Group
 Basically, the aim of this project is to predict whether a customer will attrite using the web application(Gradio)
 
-### Installation for GRADIO APP✨
-python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -r requirements.txt  
 
-#On Linux
-python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -r requirements.txt
-
-```
 ### Usage
 - To execute Gradio use iface.launch()
 
