@@ -6,7 +6,7 @@
 | LP 4 | Embedding a Machine Learning Model into a GUI.  |  [(https://medium.com/@david.biney/deploying-time-series-model-facebook-prophet-on-streamlit-c2ff4ca31a58](/) | [https://medium.com/@david.biney/customer-churn-prediction-using-web-app-gradio-for-vodafone-group-8c8ec7803f](/) |
 
 ### Installation for both  APPS✨
-run the attached command.txt file for both Apps
+- run the attached command.txt file for both Apps
 
  ### 📚 **Description** 
 
