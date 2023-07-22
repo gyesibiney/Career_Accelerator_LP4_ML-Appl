@@ -23,7 +23,7 @@ Import all the required library names.
 
 - To execute the application, use the command "streamlit run src/predict_page.py 
  to run the app utilizing the "predict_page.py" file.
-
+- Link on huggface: https://huggingface.co/spaces/gyesibiney/streamlit-sales-prediction-APP2
 ### 📚 Developing a Gradio web app for classification model using Logistic Regression Classifier 
 
 #### Objective
